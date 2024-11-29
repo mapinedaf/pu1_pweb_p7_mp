@@ -1,0 +1,38 @@
+#JSON{
+    height: 200px;
+    width: 90%;
+    align-self:center;
+    margin-bottom: 10px;
+
+}
+
+
+.form  {
+    box-shadow: 10px 10px 10px 10px;
+    border-radius: 10px;
+    background-color: cornflowerblue;
+    margin-left: 40vw;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    width: 400px;
+    padding: 10px;
+    border: solid black 2px;
+}
+
+
+input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid black;
+    margin-bottom: 10px;
+}
+
+
+
+#mensajeError{
+    visibility: hidden;
+    height: 0px;
+    font-size: 0px;
+    font-weight: bold;
+}
